@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Header Scripts -->
+	<head>
+		<meta charset="utf-8">
+		<title>Reale Accounting</title>
+		<base href="http://www.realeaccounting.com">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/core.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/camera.js"></script>
+		<!-- <script src="{% static 'assets/js/camera_update.min.js' %} "></script> -->
+		<script src="js/snap.svg-min.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<!-- Syntax Highlighter -->
+		<script type="text/javascript" src="js/shCore.js"></script>
+	  	<script type="text/javascript" src="js/shBrushXml.js"></script>
+	  	<script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+		<!-- Optional FlexSlider Additions -->
+	  	<script src="js/jquery.easing.js"></script>
+	 	<script src="js/jquery.mousewheel.js"></script>
+	  	<script defer src="js/demo.js"></script>
+	  	<!-- FlexSlider -->
+		<script defer src="js/jquery.flexslider.js"></script>
+		<!-- jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({
+			    google_ad_client: "ca-pub-8046140042774944",
+			    enable_page_level_ads: true
+			});
+		</script>
+		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+		<script type="text/javascript">
+		    $(function(){
+		      SyntaxHighlighter.all();
+		    });
+		    $(window).load(function(){
+		      $('.flexslider').flexslider({
+		        animation: "slide",
+		        start: function(slider){
+		          $('body').removeClass('loading');
+		        }
+		      });
+		    });
+		</script>
+
+		<script src="js/jquery.mobile.customized.min.js"></script>
+
+		<script>
+		$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+			loader: false,
+			pagination: true ,
+			minHeight: '394',
+			thumbnails: false,
+			height: '40.1875%',
+			caption: false,
+			navigation: false,
+			fx: 'mosaic'
+			});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		})
+		</script>
+
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+		<!--[if lt IE 10]>
+		<link rel="stylesheet" media="screen" href="css/ie1.css">
+		<![endif]-->
+	</head>
+
+	<!-- Header Scripts Endded Here -->
+
+	
+
+	<body class="page1">
+	
+		<!-- Common Header -->
+		<div class="relative">
+			<div class="site-header-wrap">
+				<div class="top-bar">
+	        		<div style="" class="container">
+			        	<div class="top-bar-left">
+				        		<div id="anpstext-12" class="widget-container widget_anpstext">
+					                <span class="fa fa-map-marker" style="display: none;  color: #0cacee;"></span>
+					                <span class="anpstext-desc">
+					                	<span class="important" style="color: #fff;">REALE ACCOUNTING SERVICES</span>
+					                </span>
+				        		</div>
+				        </div>
+			        	<div class="top-bar-right">
+			        		<div id="anpstext-1" class="widget-container widget_anpstext" style="display: none;">
+			                    <span class="fa fa-clock-o" style="color: #0cacee"></span>
+			                    <span class="anpstext-desc">
+			                		<span class="important" style="color: #e1e7f2">Mon - Sat: 7:00 - 17:00</span>
+			                	</span>
+			       			</div>
+					   		<div id="anpstext-2" class="widget-container widget_anpstext">
+					                <span class="fa fa-phone" style="color: #0cacee"></span>
+					                <span class="anpstext-desc">
+					            		<span class="important" style="color: #e1e7f2">+ 1 786 629 9126</span>
+					            	</span>
+					    	</div>
+				    		<div id="anpstext-3" class="widget-container widget_anpstext">
+				                <span class="fa fa-envelope-o" style="color: #0cacee"></span>
+				                <span class="anpstext-desc">
+				            		<span class="important" style="color: #e1e7f2">mail@realeaccounting.com</span>
+				                </span>
+				    		</div>
+		        		
+		        			<div id="anpssocial-1" class="widget-container widget_anpssocial">     
+		        	    		<ul class="socialize" style="display: none;">
+		                       		<li>
+		                       			<a title="" href="#" target="_self" style="color: #0cacee">
+		                					<i class="fa fa-twitter" aria-hidden="true"></i>
+		                					<span class="sr-only"></span>
+		                				</a>
+		                        	</li>
+		                        	<li>
+		                            	<a title="" href="#" target="_self" style="color: #0cacee">
+					                		<i class="fa fa-facebook" aria-hidden="true"></i>
+					                		<span class="sr-only"></span>
+					                	</a>
+					            	</li>
+					            	<li>
+		                            	<a title="" href="#" target="_self" style="color: #0cacee">
+		                					<i class="fa fa-linkedin" aria-hidden="true"></i>
+		                					<span class="sr-only"></span>
+		                				</a>
+		                        	</li>
+		                        	<li>
+		                            	<a title="" href="#" target="_self" style="color: #0cacee">
+						                	<i class="fa fa-dribbble" aria-hidden="true"></i>
+						                	<span class="sr-only"></span>
+						            	</a>
+		                        	</li>
+		                    	</ul>
+		        			</div>
+		        		</div>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+        <div class="common-header">
+			<div class="grid_12">
+				<h1 class="logo-heading"><a href="http://www.realeaccounting.com/"><img src="images/logo.jpg" alt="Boo House"></a></h1>
+				<div class="clear"></div>
+			</div>
+			<header>	
+				<div class="menu_block">
+					<nav id="bt-menu" class="bt-menu bt-menu-open">
+						<ul>
+							<li class="menu-left"><a href="http://www.realeaccounting.com/">REALE <span>ACCOUNTING</span></a></li>
+							<li class="current bt-icon"><a href="http://www.realeaccounting.com/">Home</a></li>
+							<li class="bt-icon"><a href="http://www.realeaccounting.com/services">Services</a></li>
+							<li class="bt-icon"><a href="http://www.realeaccounting.com/about-us">About</a></li>
+							<li class="bt-icon"><a href="http://www.realeaccounting.com/contact-us">Contacts</a></li>
+						</ul>
+					</nav>
+					<div class="clear"></div>
+				</div>
+				<div class="container_12">	</div>
+			</header>
+		</div>
+			
+		<!-- Common Header Endeed -->
+
+		<!-- Banner Images With Flexslider -->        
+
+		<div id="container" class="cf">
+    		<div id="main" role="main">
+		      	<section class="slider">
+		        	<div class="flexslider">
+		          		<ul class="slides img-banner">
+				            <li>
+				  	    	    <img style="width:1460px; height:378px;" src="images/banner/about_img.jpg">
+				  	    	</li>  	    
+				            <li>
+				  	    	   	<img style="width:1460px; height:378px;" src="images/banner/accounting_banner.png">
+				  	    	</li>
+			  	    		<li>
+			  	    	    	<img style="width:1460px; height:378px;" src="images/banner/BOSS-Homepage-Banner.jpg">
+			  	    		</li>
+			  	    		<li>
+			  	    	    	<img style="width:1460px; height:378px;" src="images/banner/Website_Banner_2.jpg">
+			  	    		</li>		
+		          		</ul>
+		        	</div>
+		      	</section>
+		    </div>
+		</div>
+
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="slogan">
+					ACCOUNTING AND BOOKKEEPING SERVICE OFFERINGS
+					<!--<a href="#" class="btn">more</a>-->
+				</div>
+			</div>
+			<div class="slogan_desc">
+				<p>How much more profitable could your business be if you had the time to focus on the actual business instead of handling a range of administrative tasks? Reale offers you options for better management of your accounting and bookkeeping functions.</p>
+				<p>
+				Leverage the advanced technical expertise of our team members to help you realize increased profitability through efficiency gains and robust accounting and bookkeeping solutions which allow you to minimize the time you spend on these functions. </p>
+				<p>Timely, cost effective, scalable solutions from Reale translate to business growth for your company.</p>
+			</div>
+		</div>
+		<div class="container_12">
+			<section class="grid" id="grid">
+				<a href="http://www.realeaccounting.com/services" data-path-hover="m 180,70.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,262 0,0 180,0 z"/></svg>
+						<figcaption>
+							<div class="title">Bookkeeping</div>
+						</figcaption>
+					</figure>
+					<span>more</span>
+				</a>
+				<a href="http://www.realeaccounting.com/services" data-path-hover="m 180,70.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,262 0,0 180,0 z"/></svg>
+						<figcaption>
+							<div class="title">Accounting</div>
+						</figcaption>
+					</figure>
+					<span>more</span>
+				</a>
+				<a href="http://www.realeaccounting.com/services" data-path-hover="m 180,70.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,262 0,0 180,0 z"/></svg>
+						<figcaption>
+						<div class="title">Payroll</div>
+						</figcaption>
+					</figure>
+					<span>more</span>
+				</a>
+				<a href="http://www.realeaccounting.com/services" data-path-hover="m 180,70.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,262 0,0 180,0 z"/></svg>
+						<figcaption>
+						<div class="title">Tax</div>
+						</figcaption>
+					</figure>
+					<span>more</span>
+				</a>
+			</section>
+		</div>
+		
+		<div class="sub_container" style="display:none;">
+			<div class="slogan">
+				WHY WORK WITH US
+				<!--<a href="#" class="btn">more</a>-->
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page4_img.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<div class="title1">Integrity and Quality of Service</div>
+						<p>Our teams of experienced accountants and bookkeepers are dedicated to providing the highest quality service to every client, 
+						on every assignment. We are proud that 80% of our business comes from client referrals including CPAs, and over 95% of our clients 
+						renew their services annually with us.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page4_img.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<div class="title1">Latest Technology & Proprietary Tools</div>
+						<p>We deploy proven systems and technology tools for managing our clients’ accounting and bookkeeping engagements. 
+						With automated processes and a cloud-based accounting portal, delivery times are expedited, our response time to client inquiries 
+						is faster, and data accuracy is ensured throughout every step of the process.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page4_img.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<div class="title1">We Can Recommend New Systems or Work with Your Pre-existing Accounting Software</div>
+						<p>REALE works with clients to identify, implement or upgrade accounting information systems based on their unique needs. 
+						We can also integrate existing accounting software into our systems, 
+						including QuickBooks, Peachtree, Great Plains, Intacct and many other applications</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page4_img.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<div class="title1">We Improve and Streamline Your Workflows</div>
+						<p>Our accounting processes can reduce our clients’ monthly workload by 20%-30%,
+						depending on the project. We replace dated, manual, and untimely bill collection and submission functions with proven, 
+						automated systems that align with the unique needs of our clients.
+						</p>
+					</div>
+				</div>
+			</div>
+					
+			<div class="slogan">
+						WHY OUTSOURCE<br>
+						<!--<a href="#" class="btn">more</a>-->
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+					<div class="title1">Save Time and Money</div>
+					<div class="extra_wrapper">
+						
+						<p>The top three reasons businesses outsource are cost savings, absence of local professionals with required talent,
+						and ability to leverage an efficient, established technological infrastructure. Studies indicate that a company can
+						save approximately 40% on operational costs by outsourcing. Outsourcing also provides businesses with access to the same secure, 
+						technological platforms used by larger companies without needing to invest heavily themselves or worry about the associated 
+						information security requirements.</p>
+					</div>
+				</div>
+			</div>	
+			<div class="container_12">
+					<div class="grid_6">
+						<img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+						<div class="extra_wrapper">
+							<div class="title1">Scale Quickly</div>
+							<p>End-to-end outsourcing companies offer a range of services and instant access to individuals with 
+							the talent and skill-sets that can be leveraged at any time to support the changing accounting and bookkeeping needs of growing companies.
+							</p>
+						</div>
+					</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<div class="title1">Pay For What You Need</div>
+						<p>Companies have the ability to adjust the level of support or services required, 
+						based on their financial resources. Whether you require full-time expertise in a specific area or require
+						our services for only a few hours monthly on a project basis, Reale allows you to adjust the level of support your business needs when you need it, 
+						including support for online accounting solutions and cloud based accounting solutions.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_6">
+					<img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<div class="title1">Ensure Business Continuity</div>
+						<p>Most small businesses lack the time and resources to develop business continuity plans. 
+						Working with a reliable outsourcing company mitigates the risks associated with losing internal staff, 
+						as the function and associated business knowledge are not reliant on a single employee.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+
+		<div class="clear"></div>
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="socials">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google-plus"></a>
+					</div>
+					<div class="clear"></div>
+					<div class="copy">
+						RealeGroup &copy; 2015 | <a href="#">Privacy Policy</a> <br> Website designed by <a href="#" rel="nofollow">RealeGroup</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			$(document).ready(function(){
+			 $(".bt-menu-trigger").toggle(
+				function(){
+				$('.bt-menu').addClass('bt-menu-open');
+				},
+				function(){
+				$('.bt-menu').removeClass('bt-menu-open');
+				}
+			);
+			});
+			(function() {
+			function init() {
+				var speed = 250,
+				easing = mina.easeinout;
+				[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+				var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+					pathConfig = {
+					from : path.attr( 'd' ),
+					to : el.getAttribute( 'data-path-hover' )
+					};
+				el.addEventListener( 'mouseenter', function() {
+					path.animate( { 'path' : pathConfig.to }, speed, easing );
+				} );
+				el.addEventListener( 'mouseleave', function() {
+					path.animate( { 'path' : pathConfig.from }, speed, easing );
+				} );
+				} );
+			}
+			init();
+			})();
+		</script>		
+	</body>
+</html>

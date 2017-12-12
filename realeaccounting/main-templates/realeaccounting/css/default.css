@@ -1,0 +1,87 @@
+<!-- Default css for tutorial Website -->
+
+
+<style type="text/css">
+	/* Default CSS */	
+	body {	
+		text-align: center;
+	     }
+        
+        #page {
+	    width: 960px;
+	    text-align: left;
+	    margin: 10px auto 20px auto;
+            background-color: #0c0c0c; 
+	}
+
+	.clearfix {
+			clear: both;
+	}
+
+	#sidebar {
+		float: left;
+                width: 200px;
+		border: 1px solid #000;
+	}
+
+ 	#content {
+		float: left;
+		width: 600px;
+		border: 1px solid #f00; 
+		padding: 10px;
+	}
+	
+	/* Additional CSS */	
+	#search {
+    		width: 90%; 
+		
+	}
+	
+	#search-results {
+		list-style: none;	
+	}
+
+	.helptext {
+		float: left;
+		width: 100%;
+	}
+
+	.messages {
+		background-color: #c0c0c0;
+		color: #fff;
+		padding: 1em;
+	}
+
+	.success {
+		background-color: #008800;
+		border-color: #005500;
+		padding-left: 1em;
+	}
+
+	.deleted {
+		background-color: #880000
+		border-color: #550000;
+		padding-left: 1em;
+	}
+
+
+	
+	/* Project: Safari Website */	
+
+	body { margin: auto; }
+
+	li { color: green; }
+	/* .main{ background: #0A2E52; } */
+	.main img{ width: 100% !important; }
+	.banner_footer{ font-size: 13px; }
+	
+	#navbar-right li { float: left; margin-right: 10px; }
+	#navbar-right{ list-style:none; margin: auto; }
+	#navbar-right li a { text-decoration: none; color: #FFFFFF; }
+
+	
+	.header { background: #00573d; padding: 10px; }
+	.header a { color: #FFFFF5; text-decoration: none; margin-left: 25px;}
+
+
+</style>
